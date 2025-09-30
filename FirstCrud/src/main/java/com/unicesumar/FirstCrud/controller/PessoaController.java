@@ -1,7 +1,12 @@
 package com.unicesumar.FirstCrud.controller;
 
+import com.unicesumar.FirstCrud.model.Pessoa;
+import com.unicesumar.FirstCrud.service.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(path = "/pessoa")
